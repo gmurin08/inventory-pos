@@ -164,6 +164,10 @@ useEffect(() => {
         POS System (Live Updates)
       </Typography>
 
+      <Button variant="contained" color="primary" onClick={()=>router.push('/admin')}>
+        Access Admin
+      </Button>
+
       {/* Category Tabs */}
       <Tabs
         value={selectedCategory}
